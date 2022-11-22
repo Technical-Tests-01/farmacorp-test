@@ -2,15 +2,15 @@
 using activate_assurance.Models;
 using data.access.data.repository.impl;
 using Microsoft.EntityFrameworkCore;
+using models;
 using models.erp.module;
 
-namespace data.access
+namespace data.access.data.repository.impl
 {
-	public class ProductErpRepository : Repository<ProductErp>, IProductErpRepository
+	public class ProductCategoryRepository : Repository<ProductCategory>, IProductCategoryRepository
     {
-        private readonly ApplicationDbContext context;
-
-        public ProductErpRepository(DbContext context) : base(context)
+        
+        public ProductCategoryRepository(DbContext context) : base(context)
         {
         }
     }

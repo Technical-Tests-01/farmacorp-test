@@ -1,0 +1,12 @@
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/bin/Debug/net6.0/models.deps.json
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/bin/Debug/net6.0/models.dll
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/bin/Debug/net6.0/models.pdb
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.csproj.AssemblyReference.cache
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.AssemblyInfoInputs.cache
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.AssemblyInfo.cs
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.csproj.CoreCompileInputs.cache
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.dll
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/refint/models.dll
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.pdb
+/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/ref/models.dll

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\data.access\data.access.csproj" />
+    <ProjectReference Include="..\models\models.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="business.logic\" />
+    <None Remove="business.logic\impl\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="business.logic\" />
+    <Folder Include="business.logic\impl\" />
+  </ItemGroup>
+</Project>
