@@ -34,9 +34,4 @@
   <ItemGroup>
     <ProjectReference Include="..\models\models.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="data\" />
-    <Folder Include="data\repository\" />
-    <Folder Include="data\repository\impl\" />
-  </ItemGroup>
 </Project>

@@ -8,7 +8,7 @@ namespace services.business.logic
 	public interface IBusinessRuleStrategy
 	{
 		Task<ProductErp> registerProduct(ProductExpressDto productExpressDto);
-        Task<SaleExpress> registerSale(SaleExpress model);
+        Task<SaleExpress> registerSale(SaleExpressDto saleExpressDto);
 	}
 }
 

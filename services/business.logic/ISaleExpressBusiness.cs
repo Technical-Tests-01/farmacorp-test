@@ -7,7 +7,7 @@ namespace services.business.logic
 {
 	public interface ISaleExpressBusiness : IBusinessRuleStrategy
     {
-        Task<BarCode> assignBarCode(ProductBarCodeDto productBarCodeDto);
+        Task<BarCode> assignBarCode(ProductExpressDto productExpressDto);
         Task<ProductCategory> assignProdductCategory(ProductCategoryDto productCategoryDto);
     }
 }

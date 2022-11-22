@@ -6,7 +6,7 @@ namespace data.access.data.repository.impl
 {
     public class ProductErpRepository : Repository<ProductErp>, IProductErpRepository
     {
-        public ProductErpRepository(DbContext context) : base(context)
+        public ProductErpRepository(ApplicationDbContext context) : base(context)
         {
         }
     }

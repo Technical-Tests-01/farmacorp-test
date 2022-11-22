@@ -10,7 +10,7 @@ namespace data.access.data.repository.impl
 	public class ProductCategoryRepository : Repository<ProductCategory>, IProductCategoryRepository
     {
         
-        public ProductCategoryRepository(DbContext context) : base(context)
+        public ProductCategoryRepository(ApplicationDbContext context) : base(context)
         {
         }
     }

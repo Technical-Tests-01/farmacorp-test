@@ -15,8 +15,8 @@ namespace data.access.data.repository.impl
         {
             this.dbContext = dbContext;
             // inicializar los repositorios asociados con sus dbcontext respectivamente
-            productTypeRepository = new ProductTypeRepository(dbContext);
-            productCategoryRepository = new ProductCategoryRepository(dbContext);
+            //productTypeRepository = new ProductTypeRepository(dbContext);
+            //productCategoryRepository = new ProductCategoryRepository(dbContext);
 
         }
 

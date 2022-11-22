@@ -2160,36 +2160,45 @@
     ]
   },
   "packageFolders": {
-    "/Users/msaavedra/.nuget/packages/": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/services/services.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\services\\services.csproj",
       "projectName": "services",
-      "projectPath": "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/services/services.csproj",
-      "packagesPath": "/Users/msaavedra/.nuget/packages/",
-      "outputPath": "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/services/obj/",
+      "projectPath": "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\services\\services.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\services\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/msaavedra/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/data.access/data.access.csproj": {
-              "projectPath": "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/data.access/data.access.csproj"
+            "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\data.access\\data.access.csproj": {
+              "projectPath": "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\data.access\\data.access.csproj"
             },
-            "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/models.csproj": {
-              "projectPath": "/Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/models.csproj"
+            "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\models\\models.csproj": {
+              "projectPath": "C:\\Users\\user\\Source\\Repos\\farmacorp-test\\models\\models.csproj"
             }
           }
         }
@@ -2219,7 +2228,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

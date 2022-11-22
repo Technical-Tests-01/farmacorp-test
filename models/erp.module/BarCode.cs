@@ -15,11 +15,16 @@ namespace models.erp.module
 
 
         public Guid uniqueCode { get; set; }
-		public bool active { get; set; }
+		public bool active { get; set; } 
 
 		[ForeignKey(name: "productExpressId")]
 		public ProductExpress ProductExpress { get; set; }
 
+
+		public BarCode()
+		{
+			active = true;
+		}
 		
 	}
 }

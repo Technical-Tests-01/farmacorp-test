@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Reflection.Metadata;
+using System.Xml;
 using activate_assurance.Models;
+using data.access.data.extensions;
 using Microsoft.EntityFrameworkCore;
 using models;
 using models.erp.module;
@@ -8,10 +11,10 @@ using static data.access.Utils;
 
 namespace data.access
 {
-	public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
-            :base(options)
+            : base(options)
         {
         }
 
@@ -20,11 +23,11 @@ namespace data.access
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
         public DbSet<SaleExpress> SaleExpresses { get; set; }
-        public DbSet<BarCode> BarCodes{ get; set; }
+        public DbSet<BarCode> BarCodes { get; set; }
         public DbSet<ProductErp> ProductErps { get; set; }
 
-        
-        
+
+
 
 
 
@@ -37,6 +40,7 @@ namespace data.access
         {
             base.OnModelCreating(modelBuilder);
 
+            
             modelBuilder.Entity<Category>(entity =>
             {
                 entity.HasKey(x => x.categoryId);
@@ -55,9 +59,9 @@ namespace data.access
             modelBuilder.Entity<ProductCategory>().HasQueryFilter(entity => entity.isDeleted == 0);
             modelBuilder.Entity<SaleExpress>().HasQueryFilter(entity => entity.isDeleted == 0);
             modelBuilder.Entity<BarCode>().HasQueryFilter(entity => entity.isDeleted == 0);
-            modelBuilder.Entity<ProductErp>().HasQueryFilter(entity => entity.isDeleted == 0);
+            //modelBuilder.Entity<ProductErp>().HasQueryFilter(entity => entity.isDeleted == 0);
 
-
+            
         }
 
         public override int SaveChanges(bool acceptAllChangesOnSuccess)

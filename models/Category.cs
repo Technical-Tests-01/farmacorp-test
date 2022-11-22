@@ -28,7 +28,7 @@ namespace models
 
 
         
-        public List<Category> categories { get; }
+        public List<Category> categories { get; set; }
 
 
         [InverseProperty("category")]
@@ -37,6 +37,7 @@ namespace models
 
         public Category()
 		{
+            active = true;
             categories = new List<Category>();
             productCategories = new List<ProductCategory>();
 		}

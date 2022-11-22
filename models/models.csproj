@@ -12,6 +12,5 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="erp.module\" />
-    <Folder Include="dtos\" />
   </ItemGroup>
 </Project>

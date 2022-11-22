@@ -7,7 +7,7 @@ namespace data.access.data.repository.impl
 {
 	public class ProductTypeRepository : Repository<ProductType>, IProductTypeRepository
     {
-        public ProductTypeRepository(DbContext context) : base(context)
+        public ProductTypeRepository(ApplicationDbContext context) : base(context)
         {
         }
     }

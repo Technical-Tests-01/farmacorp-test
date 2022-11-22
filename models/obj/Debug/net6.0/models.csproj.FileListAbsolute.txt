@@ -10,3 +10,15 @@
 /Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/refint/models.dll
 /Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/models.pdb
 /Users/msaavedra/Documents/personal/trabajos/remoto/farmacorp/test/farmacorp-test/models/obj/Debug/net6.0/ref/models.dll
+C:\Users\user\Source\Repos\farmacorp-test\models\bin\Debug\net6.0\models.deps.json
+C:\Users\user\Source\Repos\farmacorp-test\models\bin\Debug\net6.0\models.dll
+C:\Users\user\Source\Repos\farmacorp-test\models\bin\Debug\net6.0\models.pdb
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.csproj.AssemblyReference.cache
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.AssemblyInfoInputs.cache
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.AssemblyInfo.cs
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.csproj.CoreCompileInputs.cache
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.dll
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\refint\models.dll
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\models.pdb
+C:\Users\user\Source\Repos\farmacorp-test\models\obj\Debug\net6.0\ref\models.dll

@@ -14,8 +14,4 @@
     <None Remove="business.logic\" />
     <None Remove="business.logic\impl\" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="business.logic\" />
-    <Folder Include="business.logic\impl\" />
-  </ItemGroup>
 </Project>

@@ -37,6 +37,7 @@ namespace models
 
         public ProductExpress()
         {
+            active = true;
             productCategories = new List<ProductCategory>();
         }
 
